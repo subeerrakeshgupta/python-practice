@@ -22,3 +22,16 @@ print("area = ",side*side)
 result :enter square side:5
 area =  25.0
 '''
+'''
+Ques3: Write a program to input 2 floating point numbers & print their average?
+'''
+
+a = float(input("enter first :"))
+b = float(input("enter second :"))
+print("avg =",(a+b)/2)
+
+'''
+result :enter first :16.5
+enter second :3.5
+avg = 10.0
+'''
