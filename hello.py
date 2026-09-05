@@ -26,6 +26,36 @@ area =  25.0
 Ques3: Write a program to input 2 floating point numbers & print their average?
 '''
 
+
+# Conditonal Expression
+
+mark = int(input("enter student mark :"))
+
+if(mark >= 90):
+    grade = "A"
+elif(mark >= 80 and mark < 90):
+    grade = "B"
+elif(mark >= 70 and mark < 80):
+    grade = "C"
+else:
+    grade = "D"
+print("grade of the student ->",grade)
+
+'''
+Result :enter student mark :98
+grade of the student -> A
+enter student mark :85
+grade of the student -> B
+enter student mark :55
+grade of the student -> D
+'''
+
+
+
+
+
+
+
 a = float(input("enter first :"))
 b = float(input("enter second :"))
 print("avg =",(a+b)/2)
