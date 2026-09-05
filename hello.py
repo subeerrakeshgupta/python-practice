@@ -55,6 +55,15 @@ result : 4
         apna college
         '''
 
+# Ques : write a program to input user's first name & print its length ?
+
+
+name = input("entr your name :")
+print("length of your name is ",len(name))
+
+'''
+result : entr your name :subeer
+         length of your name is  6
 
 
 
