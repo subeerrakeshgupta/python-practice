@@ -94,6 +94,24 @@ print("length of your name is ",len(name))
 '''
 result : entr your name :subeer
          length of your name is  6
+         
+# Ques : write a program to check if a number entered by the user is odd or even ?
+
+
+num  = int(input("enter number:"))
+
+if(num % 2 == 0):
+    print("EVEN")
+else:
+    print("ODD")
+'''
+result: enter number:4
+        EVEN
+        enter number:5
+        ODD
+
+
+
 
 
 
