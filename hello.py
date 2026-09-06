@@ -25,7 +25,15 @@ area =  25.0
 '''
 Ques3: Write a program to input 2 floating point numbers & print their average?
 '''
+a = float(input("enter first :"))
+b = float(input("enter second :"))
+print("avg =",(a+b)/2)
 
+'''
+result :enter first :16.5
+enter second :3.5
+avg = 10.0
+'''
 
 # Conditonal Expression
 
@@ -50,21 +58,6 @@ enter student mark :55
 grade of the student -> D
 '''
 
-
-
-
-
-
-
-a = float(input("enter first :"))
-b = float(input("enter second :"))
-print("avg =",(a+b)/2)
-
-'''
-result :enter first :16.5
-enter second :3.5
-avg = 10.0
-'''
 
 
 # length of string and concatenation
@@ -109,10 +102,28 @@ result: enter number:4
         EVEN
         enter number:5
         ODD
+'''
 
+# Ques : WAP to find the greatest of 3 numbers entered by the user ?
 
+a = int(input("enter first number :"))
+b = int(input("enter second number :"))
+c = int(input("enter third number"))
 
+if(a >= b and a >= c):
+    print("first number is largest",a)
+elif(b >= c):
+    print("second number is largest",b)
+else:
+    print("third is largest",c)
 
+'''  
+result :
+enter first number :5
+enter second number :12
+enter third number2
+second number is largest 12
+'''
 
 
 
