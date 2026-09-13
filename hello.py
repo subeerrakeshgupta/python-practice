@@ -126,6 +126,24 @@ second number is largest 12
 '''
 
 
+# List in python
+
+
+movies = []
+mov1 = input("enter 1st movie: ")
+mov2 = input("enter 2st movie: ")
+mov3 = input("enter 3rd movie: ")
+movies.append(mov1)
+movies.append(mov2)
+movies.append(mov3)
+print(movies)
+
+result:enter 1st movie: Don
+       enter 2st movie: Dhurandhar
+       enter 3rd movie: Housefull
+       ['Don', 'Dhurandhar', 'Housefull']
+
+
 
 
 
