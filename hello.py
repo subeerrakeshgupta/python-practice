@@ -128,7 +128,7 @@ second number is largest 12
 
 # List in python
 
-Ques: WAP to ask the user to enter names of their 3 favorite movies and store them in a list?
+Ques 1: WAP to ask the user to enter names of their 3 favorite movies and store them in a list?
 
 movies = []
 mov1 = input("enter 1st movie: ")
@@ -143,6 +143,34 @@ result:enter 1st movie: Don
        enter 2st movie: Dhurandhar
        enter 3rd movie: Housefull
        ['Don', 'Dhurandhar', 'Housefull']
+
+
+     ["C","D","A","B","B","A"]
+Ques 2: Store the above values in a list & sort them from "A" to "D" ?
+
+grade = ["C","D","A","A","B","B","A"]
+grade.sort()
+print(grade)
+
+
+result:['A', 'A', 'A', 'B', 'B', 'C', 'D']
+
+
+       
+
+# Tuple in python 
+
+Ques: WAP to count the number of students with the "A" grade in the following tuple?
+
+grade = ("c","D","A","A","B","B","A")
+print(grade.count("A"))
+
+
+result: 3
+
+
+
+
 
 
 
