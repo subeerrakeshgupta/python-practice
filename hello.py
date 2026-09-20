@@ -160,22 +160,40 @@ result:['A', 'A', 'A', 'B', 'B', 'C', 'D']
 
 # Tuple in python 
 
-Ques: WAP to count the number of students with the "A" grade in the following tuple?
+Ques:1 WAP to count the number of students with the "A" grade in the following tuple?
 
 grade = ("c","D","A","A","B","B","A")
 print(grade.count("A"))
-
-
 result: 3
 
 
+Ques 2:Given the list colors = ["red", "green", "blue"], convert it into a tuple and print the result. Then, do the reverse with a tuple
 
 
+colors = ["red", "green", "blue"]
+colors_tuple = tuple(colors)  # List to tuple
+print(colors_tuple)
 
+result : ('red', 'green', 'blue')
 
+Ques3:You are given a tuple representing a person's profile: person = ("Alice", 25, "Engineer").Write a script that unpacks this tuple into three separate variables (name, age, job) and prints them.
 
+person = ("Alice", 25, "Engineer")
+name, age, job = person
+print(name, age, job)
 
+result: Alice 25 Engineer
 
+Ques 4: Given a tuple of numbers scores = (78, 92, 45, 89, 64), write a Python program to find and print the highest score, the lowest score, and the sum of all scores.
+
+scores = (78, 92, 45, 89, 64)
+print("Max:", max(scores))  
+print("Min:", min(scores))  
+print("Sum:", sum(scores))
+
+result : Max: 92
+Min: 45
+Sum: 368
 
 
 
